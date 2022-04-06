@@ -1,0 +1,16 @@
+.song-title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    color: black;
+    text-align: center;
+    padding-right: 12px;
+}
+
+.p{
+    flex-wrap: wrap;
+    border: 2px solid #457b9d;
+    background-color: #a8dadc;
+    color: black;
+}

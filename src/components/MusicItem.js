@@ -1,11 +1,14 @@
-import React from 'react';
+import React from "react";
+import "./MusicItems.css";
+
 
 const MusicItem = ({song}) => {
     return (
         <div>
-            <p>{song.title.label}</p>
-           
-
+            <ul>
+            <p class = "p">{song.title.label}</p> 
+            <br></br>
+            </ul>
         </div>
     )
 }

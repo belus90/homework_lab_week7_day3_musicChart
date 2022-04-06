@@ -5,8 +5,9 @@ import MusicBox from './containers/MusicBox';
 function App() {
   return (
     <>
-    <h1>Music Chart List</h1>
-    <MusicBox/>
+    <h1 class = "vivike" >Music Chart List: </h1>
+      <hr></hr>
+      <MusicBox/>
     </>
   );
 }
